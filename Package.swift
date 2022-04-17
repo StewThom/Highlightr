@@ -28,7 +28,7 @@ let package = Package(
             ],
             resources: [
                 .copy("Assets/Highlighter/highlight.min.js"),
-                .copy("Assets/styles")
+                .copy("Assets/styles/")
             ]
         ),
     ]
