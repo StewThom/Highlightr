@@ -76,7 +76,7 @@ open class Highlightr
         }
         self.hljs = hljs
         
-        guard setTheme(to: "pojoaque") else
+        guard setTheme(to: "github-dark") else
         {
             return nil
         }
